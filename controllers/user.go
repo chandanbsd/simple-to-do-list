@@ -4,10 +4,10 @@ import "github.com/gin-gonic/gin"
 
 func AddUserController(ginEngine *gin.Engine) {
 
-	ginEngine.GET("/signup", userSignUpHandler)
+	ginEngine.POST("/signup", userSignUpHandler)
 
 }
 
 func userSignUpHandler(context *gin.Context) {
-	context.
+	context.Request.Body
 }

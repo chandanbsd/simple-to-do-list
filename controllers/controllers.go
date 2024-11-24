@@ -6,5 +6,4 @@ func controllers() {
 	ginEngine := gin.Default()
 
 	
-	
 }
